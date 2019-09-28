@@ -6,6 +6,7 @@ function calculateItemTotal(item) {
 }
 
 function calculateTotal(items) {
+  items.map(calculateItemTotal)
   return items
 }
 
